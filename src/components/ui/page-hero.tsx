@@ -1,0 +1,1 @@
+export function PageHero({eyebrow,title,copy,image}:{eyebrow:string;title:string;copy:string;image:string}){return <section className="page-hero" style={{backgroundImage:`linear-gradient(90deg,rgba(7,27,52,.9),rgba(7,27,52,.36)),url(${image})`}}><div className="shell"><p className="eyebrow light">{eyebrow}</p><h1>{title}</h1><p>{copy}</p></div></section>}

@@ -1,0 +1,23 @@
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(37, 211, 102, 0.2);
+}
+
+.btn-whatsapp:hover {
+  background: #128c47;
+  box-shadow: 0 12px 25px rgba(18, 140, 71, 0.28);
+}
+
+.btn-whatsapp:focus-visible {
+  outline: 3px solid #8be7ae;
+  outline-offset: 3px;
+}
+
+.contact-cards .whatsapp-card {
+  background: #f0fff5;
+  border-color: #a9edc5;
+}
+
+.contact-cards .whatsapp-card svg { color: #25d366; }
+.contact-cards .whatsapp-card:hover { border-color: #25d366; box-shadow: 0 9px 22px rgba(37, 211, 102, 0.12); }

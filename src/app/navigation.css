@@ -1,0 +1,35 @@
+.desktop-links a,
+.mobile-menu a:not(.btn) {
+  position: relative;
+}
+
+.desktop-links a.active-link {
+  color: var(--blue);
+}
+
+.desktop-links a.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 2px;
+  background: var(--gold);
+}
+
+.mobile-menu a.active-link {
+  color: var(--blue);
+  background: var(--pale);
+  border-left: 3px solid var(--gold);
+  padding: 10px 12px;
+}
+
+.contact-layout .form-submit .btn-primary {
+  background: #25d366;
+  box-shadow: 0 8px 18px rgba(37, 211, 102, 0.2);
+}
+
+.contact-layout .form-submit .btn-primary:hover {
+  background: #128c47;
+  box-shadow: 0 12px 25px rgba(18, 140, 71, 0.28);
+}

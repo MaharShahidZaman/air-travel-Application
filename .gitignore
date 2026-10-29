@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Local editor settings
+.vscode/
+
+# Environment files
+.env*
+!.env.example
+
+# Logs
+*.log

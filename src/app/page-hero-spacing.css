@@ -1,0 +1,22 @@
+.page-hero {
+  min-height: 520px;
+  padding: 96px 0 145px;
+}
+
+.page-hero .shell {
+  width: min(1160px, calc(100% - 40px));
+}
+
+@media (max-width: 850px) {
+  .page-hero {
+    min-height: 440px;
+    padding: 75px 0 110px;
+  }
+}
+
+@media (max-width: 560px) {
+  .page-hero {
+    min-height: 390px;
+    padding: 65px 0 90px;
+  }
+}
